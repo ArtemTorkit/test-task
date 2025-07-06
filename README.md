@@ -43,7 +43,7 @@ Use the UI to manually add a quiz and related questions to the database.
 Or via API (example using cURL):
 
 bash
-curl -X POST http://localhost:3000/api/quizzes \
+curl -X POST http://localhost:1111/quizzes \
 -H "Content-Type: application/json" \
 -d '{
   "title": "Sample Quiz",
