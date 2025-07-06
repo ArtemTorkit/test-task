@@ -19,7 +19,7 @@ Start the backend server:
 
 bash
 npm run dev
-The backend will start on http://localhost:3000 (or your configured port).
+The backend will start on http://localhost:1111 
 
 💻 Frontend Setup
 Install dependencies:
