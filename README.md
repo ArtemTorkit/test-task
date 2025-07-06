@@ -40,25 +40,4 @@ bash
 npx prisma studio
 Use the UI to manually add a quiz and related questions to the database.
 
-Or via API (example using cURL):
-
-bash
-curl -X POST http://localhost:1111/quizzes \
--H "Content-Type: application/json" \
--d '{
-  "title": "Sample Quiz",
-  "questions": [
-    {
-      "text": "What is 2 + 2?",
-      "options": ["3", "4", "5"],
-      "answer": "4"
-    },
-    {
-      "text": "What is the capital of France?",
-      "options": ["Berlin", "Madrid", "Paris"],
-      "answer": "Paris"
-    }
-  ]
-}'
-This assumes your backend has a POST route at /api/quizzes that handles nested question creation.
 
